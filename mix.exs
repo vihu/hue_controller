@@ -27,6 +27,7 @@ defmodule HueController.MixProject do
   defp deps do
     [
       {:huex, "~> 0.7"},
+      {:ex_doc, "~> 0.16", only: :dev, runtime: false}
     ]
   end
 end

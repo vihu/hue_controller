@@ -1,9 +1,14 @@
 defmodule HueController.CLI do
+  @moduledoc """
+  CLI for HueController
+
+  Usage: ./hue_controller --help
+  """
   def main(args) do
     args |> parse_args |> process_args
   end
 
-  def parse_args(args) do
+  defp parse_args(args) do
     {params, _, _} =  OptionParser.parse(args, switches: [help: :boolean])
     params
   end

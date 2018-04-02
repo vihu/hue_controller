@@ -11,9 +11,8 @@ defmodule HueController do
   Set night mode.
 
   ## Examples
-
-  iex> HueController.night
-  :ok
+         iex> HueController.night
+         :ok
 
   """
   def night do
@@ -29,8 +28,8 @@ defmodule HueController do
 
   ## Examples
 
-  iex> HueController.day
-  :ok
+        iex> HueController.day
+        :ok
 
   """
   def day do
@@ -45,8 +44,8 @@ defmodule HueController do
 
   ## Examples
 
-  iex> HueController.relax
-  :ok
+        iex> HueController.relax
+        :ok
 
   """
   def relax do
@@ -60,8 +59,8 @@ defmodule HueController do
 
   ## Examples
 
-  iex> HueController.off
-  :ok
+       iex> HueController.off
+       :ok
 
   """
   def off do
